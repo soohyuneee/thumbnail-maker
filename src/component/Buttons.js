@@ -18,7 +18,7 @@ const Container = styled.div`
 		return css`
 			background-color: ${color};
 			background-image: url(${image});
-			background-image: ${gradient};
+			background: ${gradient};
 		`;
 	}}
 `;
@@ -73,14 +73,20 @@ function Buttons() {
 
 	const onRandomColorClick = () => {
 		setColor(getRandomColor());
+		setGradient("");
+		setImage("");
 	};
 
 	const onRandomImageClick = () => {
 		setImage(getRandomImage());
+		setColor("");
+		setGradient("");
 	};
 
 	const onRandomgradientClick = () => {
 		setGradient(getRandomGradient());
+		setColor("");
+		setImage("");
 	};
 
 	const onRandomTextClick = () => {

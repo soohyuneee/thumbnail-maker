@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "./component/Header";
 import {createGlobalStyle} from "styled-components";
-import RandomColor from "./component/RandomColor";
+import Buttons from "./component/Buttons";
 
 const GlobalStyle = createGlobalStyle`
   body {
@@ -15,7 +15,7 @@ function App() {
 		<>
 			<GlobalStyle />
 			<Header />
-			<RandomColor />
+			<Buttons />
 		</>
 	);
 }

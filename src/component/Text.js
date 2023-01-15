@@ -35,7 +35,7 @@ const TextStyle = styled.div`
 	color: ${({textColor}) => textColor};
 `;
 
-function ImgText({textColor}) {
+function Text({textColor}) {
 	const [text, setText] = useState("제목을 입력하세요");
 
 	const onChange = (e) => {
@@ -55,4 +55,4 @@ function ImgText({textColor}) {
 	);
 }
 
-export default ImgText;
+export default Text;

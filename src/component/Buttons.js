@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import styled, {css} from "styled-components";
-import ImgText from "./ImgText";
+import Text from "./Text";
 import img1 from "./img/img1.jpg";
 import img2 from "./img/img2.jpg";
 import img3 from "./img/img3.jpg";
@@ -65,7 +65,7 @@ function getRandomGradient() {
 	return `linear-gradient(${color1}, ${color2})`;
 }
 
-function RandomColor() {
+function Buttons() {
 	const [color, setColor] = useState("#dbe2ef");
 	const [image, setImage] = useState();
 	const [gradient, setGradient] = useState();
@@ -90,7 +90,7 @@ function RandomColor() {
 	return (
 		<>
 			<Container color={color} image={image} gradient={gradient} />
-			<ImgText textColor={textColor} setTextColor={setTextColor} />
+			<Text textColor={textColor} setTextColor={setTextColor} />
 			<ButtonStyle>
 				<Button onClick={onRandomColorClick}>랜덤 단색</Button>
 				<Button onClick={onRandomgradientClick}>랜덤 그라이언트</Button>
@@ -101,4 +101,4 @@ function RandomColor() {
 	);
 }
 
-export default RandomColor;
+export default Buttons;

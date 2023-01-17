@@ -62,7 +62,7 @@ function getRandomColor() {
 function getRandomGradient() {
 	const color1 = "#" + Math.floor(Math.random() * 16777215).toString(16);
 	const color2 = "#" + Math.floor(Math.random() * 16777215).toString(16);
-	return `linear-gradient(${color1}, ${color2})`;
+	return `linear-gradient(to right,${color1}, ${color2})`;
 }
 
 function Buttons() {

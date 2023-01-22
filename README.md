@@ -9,22 +9,22 @@
 이미지
 
 - 메인 화면
-<img width="1440" alt="메인" src="https://user-images.githubusercontent.com/105588175/213913512-370af0be-6e10-4cf7-a030-d7f59cdc9456.png">
+  <img width="1440" alt="메인" src="https://user-images.githubusercontent.com/105588175/213913512-370af0be-6e10-4cf7-a030-d7f59cdc9456.png">
 
 - 텍스트 작성
-<img width="1440" alt="타이틀" src="https://user-images.githubusercontent.com/105588175/213913517-3a02b054-bd94-4886-a9a1-a9625607154f.png">
+  <img width="1440" alt="타이틀" src="https://user-images.githubusercontent.com/105588175/213913517-3a02b054-bd94-4886-a9a1-a9625607154f.png">
 
 - 랜덤 효과
-<img width="1440" alt="랜덤 단색" src="https://user-images.githubusercontent.com/105588175/213913542-07617396-464e-4afa-aadf-dee9cad62de7.png">
-<img width="1440" alt="랜덤 그라디언트" src="https://user-images.githubusercontent.com/105588175/213913554-a8a928d1-8f09-4ac4-9bf1-bddfb4c98a92.png">
-<img width="1440" alt="랜덤 이미지" src="https://user-images.githubusercontent.com/105588175/213913558-7e084de8-7ab1-4e3a-aa89-fc535317349e.png">
-<img width="1440" alt="랜덤 텍스트" src="https://user-images.githubusercontent.com/105588175/213913560-0676506e-ee8e-43e1-b440-c67027093c0b.png">
+  <img width="1440" alt="랜덤 단색" src="https://user-images.githubusercontent.com/105588175/213913542-07617396-464e-4afa-aadf-dee9cad62de7.png">
+  <img width="1440" alt="랜덤 그라디언트" src="https://user-images.githubusercontent.com/105588175/213913554-a8a928d1-8f09-4ac4-9bf1-bddfb4c98a92.png">
+  <img width="1440" alt="랜덤 이미지" src="https://user-images.githubusercontent.com/105588175/213913558-7e084de8-7ab1-4e3a-aa89-fc535317349e.png">
+  <img width="1440" alt="랜덤 텍스트" src="https://user-images.githubusercontent.com/105588175/213913560-0676506e-ee8e-43e1-b440-c67027093c0b.png">
 
 ---
 
 - 기술스택 : React, Styled-Component <br >
 - 기능 : 타이틀 작성, 랜덤 효과<br >
-- [링크]()
+- [링크](https://soohyuneee.github.io/thumbnail-maker/)
 
 ---
 

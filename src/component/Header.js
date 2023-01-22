@@ -3,6 +3,7 @@ import styled from "styled-components";
 
 const HeaderStyle = styled.div`
 	font-size: 30px;
+	padding-top: 25px;
 	color: #112d4e;
 	text-align: center;
 `;

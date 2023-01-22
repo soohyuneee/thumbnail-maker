@@ -8,12 +8,14 @@ import img4 from "./img/img4.jpg";
 import img5 from "./img/img5.jpg";
 
 const Container = styled.div`
-	margin: 0px auto;
 	height: 402px;
 	width: 768px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 	background-size: cover;
 	background-repeat: no-repeat;
-	position: relative;
+	position: absolute;
 	${({color, image, gradient}) => {
 		return css`
 			background-color: ${color};
@@ -46,7 +48,9 @@ const Button = styled.button`
 const ButtonStyle = styled.div`
 	display: flex;
 	justify-content: center;
-	margin-bottom: 20px;
+	position: absolute;
+	bottom: 8%;
+	left: 25%;
 `;
 
 function getRandomImage() {

@@ -4,13 +4,14 @@ import styled from "styled-components";
 const InputStyle = styled.div`
 	display: flex;
 	justify-content: center;
+	position: absolute;
+	left: 40%;
+	bottom: 16.5%;
 `;
 
 const Input = styled.input`
 	width: 248px;
 	height: 40px;
-	float: left;
-	margin: 25px;
 	box-sizing: border-box;
 	border: 1px solid #cacaca;
 	border-radius: 14px;

@@ -46,11 +46,11 @@ const Button = styled.button`
 `;
 
 const ButtonStyle = styled.div`
+	width: 100%;
 	display: flex;
 	justify-content: center;
 	position: absolute;
 	bottom: 8%;
-	left: 25%;
 `;
 
 function getRandomImage() {
